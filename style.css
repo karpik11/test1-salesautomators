@@ -31,6 +31,25 @@ h2 {
 
 .input_flex {
   display: flex;
+
+}
+
+.btn {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 26px;
+  transition: .3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #ccc;
+}
+
+.btn:active {
+  background: #43c657;
 }
 
 label {
@@ -43,8 +62,13 @@ select,
 textarea {
   font-family: 'Montserrat';
   width: 100%;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 10px 2px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  color: #444;
+}
+
+option {
+  color: #444;
 }
